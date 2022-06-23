@@ -19,12 +19,17 @@ a {
     text-decoration: none;
 }
 
-/* header */
-
 .container {
     width: 70%;
     margin: auto;
 }
+
+h1 {
+    font-size: 5em;
+}
+
+
+/* header */
 
 #top-bar {
     z-index: 999;
@@ -68,5 +73,48 @@ a {
     color: #FFF;
     text-align: center;
 }
+
+#jumbo {
+    position: static;
+    background-color: #B4D0E7;
+    padding-top: 150px;
+    margin-bottom: -100px;
+}
+
+#jumbo > .container {
+    width: 85%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#jumbo > .container * {
+    margin-bottom: 50px;
+}
+
+#jumbo h1 {
+    display: block;
+    flex-basis: 100%;
+}
+
+#jumbo > .container > div {
+    width: 30%;
+}
+
+#jumbo .annulla {
+    margin-top: 15px;
+    font-size: 0.8em;
+}
+
+#jumbo img {
+    width: 70%;
+}
+
+#jumbo .fas {
+    font-size: 3em;
+}
+
+/* main */
 
 
