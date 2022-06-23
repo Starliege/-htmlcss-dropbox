@@ -258,3 +258,37 @@ main > section .fatturazione input[type="radio"]:checked {
     right: 0;
     width: 350px;
 }
+
+/* partner */
+
+.partner {
+    display: flex;
+    gap: 5%;
+}
+
+.partner img {
+    width: 60%;
+}
+
+.partner h3 {
+    margin: 50px 0;
+    font-size: 1.6em;
+}
+
+.partner p {
+    line-height: 1.7em;
+    margin-top: -30px;
+}
+
+.partner-button {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    width: fit-content;
+    border: 1px solid #000;
+}
+
+#start {
+    padding-bottom: 50px;
+}
+
