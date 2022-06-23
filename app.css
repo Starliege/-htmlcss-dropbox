@@ -28,6 +28,15 @@ h1 {
     font-size: 5em;
 }
 
+h2 {
+    font-size: 2.5em;
+}
+
+h6 {
+    font-size: 1.1em;
+}
+
+
 
 /* header */
 
@@ -78,7 +87,7 @@ h1 {
     position: static;
     background-color: #B4D0E7;
     padding-top: 150px;
-    margin-bottom: -100px;
+    margin-bottom: -130px;
 }
 
 #jumbo > .container {
@@ -117,4 +126,135 @@ h1 {
 
 /* main */
 
+main {
+    background-color: #FFF;
+}
 
+main section {
+    padding: 100px 0;
+}
+
+
+/* Plans */
+.plans {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main > section:nth-child(1) {
+    padding-top: 150px;
+}
+
+main > section > h2 {
+    margin-bottom: 50px;
+}
+
+main > section .fatturazione {
+    margin-bottom: 25px;
+}
+
+main > section .fatturazione > label {
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+main > section .fatturazione input[type="radio"] {
+    appearance: none;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: 1px solid #D0D0D3;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+main > section .fatturazione input[type="radio"]:checked {
+    background-color: #FFF;
+    box-shadow: 0 0 0 5px #0061FF inset;
+}
+
+.colonna {
+    width: 30%;
+    border: 1px solid #D0D0D3;
+}
+
+.colonna .titoletto {
+    padding: 10px;
+    border-bottom: 1px solid #D0D0D3;
+    text-align: center;
+}
+
+.colonna .contenuto {
+    margin: 25px;
+    padding-bottom: 100px;
+    font-size: 0.9em;
+}
+
+.colonna .contenuto > * {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.colonna .prezzo {
+    font-weight: bold;
+}
+
+.colonna .rinnovo {
+    color: #8a8a8a;
+    margin-bottom: 50px;
+}
+
+.colonna .buy-now {
+    color: #0061FF;
+    text-decoration: underline;
+}
+
+.colonna hr {
+    border: 1px solid #D0D0D3;
+    width: 50px;
+}
+
+.colonna h6 {
+    margin-top: 50px;
+}
+
+.colonna ul {
+    list-style: none;
+}
+
+.colonna ul li {
+    margin: 15px auto;
+}
+
+.colonna ul li::before {
+    content: "\2713";
+    font-size: 15px;
+    color: #0061FF;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.colonna:nth-child(4) {
+    flex-basis: 100%;
+    margin-top: 50px;
+}
+
+.colonna:nth-child(4) .contenuto {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.colonna:nth-child(4) h6 {
+    margin: 0px 0 45px;
+}
+
+.colonna:nth-child(4) .blue-button  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+}
