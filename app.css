@@ -262,7 +262,7 @@ main > section .fatturazione input[type="radio"]:checked {
     position: absolute;
     top: 0;
     right: 0;
-    width: 350px;
+    width: 250px;
 }
 
 /* partner */
@@ -322,7 +322,7 @@ main > section:nth-child(3) a {
     text-decoration: underline;
 }
 
-/* Team */  /* da fixare, potenzialmente usare container per le img e non solo img */
+/* Team */  /* da fixare UF, potenzialmente usare container per le img e non solo img */
 
 main > section:nth-child(4) a {
     color: #0061FF;
@@ -451,3 +451,52 @@ main > section:nth-child(4) a {
 #prova > .container > a {
     text-decoration: none;
 }
+
+/* faq */
+
+.domanda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.domanda i {
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.domanda:first-child {
+    border-top: 1px solid #DCDCDE;
+}
+
+.domanda {
+    cursor: pointer;
+    border-bottom: 1px solid #DCDCDE;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.domanda > span {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.risposta {
+    flex-basis: 100%;
+    display: none;
+    margin-top: 15px;
+    color: rgb(149, 149, 149);
+}
+
+.domanda:hover .risposta {
+    display: block;
+}
+
+#sezfaq {
+    margin-top: -20px;
+}
+
+#sezfaq > h2 {
+    padding-bottom: 20px;
+}
+
