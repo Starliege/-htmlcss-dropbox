@@ -257,7 +257,7 @@ main > section .fatturazione input[type="radio"]:checked {
 .colonna:nth-child(4) h6 {
     margin: 0px 0 45px;
 }
-
+/* absolute da fixare sperando che non mi scordo */
 .colonna:nth-child(4) .blue-button  {
     position: absolute;
     top: 0;
